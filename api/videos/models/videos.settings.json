@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "videos",
+  "info": {
+    "name": "videos"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "categoria": {
+      "type": "string"
+    },
+    "video": {
+      "type": "string"
+    },
+    "codigo": {
+      "type": "string"
+    }
+  }
+}

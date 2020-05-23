@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pruebas",
+  "info": {
+    "name": "Pruebas"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "preguntas": {
+      "type": "json",
+      "required": false
+    },
+    "duracion": {
+      "type": "string"
+    }
+  }
+}

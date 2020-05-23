@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cursos",
+  "info": {
+    "name": "cursos"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "seccion": {
+      "type": "string"
+    },
+    "tipo": {
+      "type": "string"
+    },
+    "duracion": {
+      "type": "string"
+    },
+    "dificultad": {
+      "type": "string"
+    },
+    "particularidad": {
+      "type": "string"
+    },
+    "precio": {
+      "type": "integer"
+    },
+    "descripcion": {
+      "type": "text"
+    },
+    "contenidos": {
+      "type": "json"
+    },
+    "imagen": {
+      "type": "string"
+    }
+  }
+}

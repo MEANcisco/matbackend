@@ -1,0 +1,73 @@
+{
+  "kind": "collectionType",
+  "collectionName": "preguntas",
+  "info": {
+    "name": "Preguntas"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "tiempo": {
+      "type": "string"
+    },
+    "enunciado": {
+      "type": "string"
+    },
+    "A": {
+      "type": "boolean"
+    },
+    "B": {
+      "type": "boolean"
+    },
+    "C": {
+      "type": "boolean"
+    },
+    "D": {
+      "type": "boolean"
+    },
+    "E": {
+      "type": "boolean"
+    },
+    "ima": {
+      "type": "string"
+    },
+    "imb": {
+      "type": "string"
+    },
+    "imc": {
+      "type": "string"
+    },
+    "imd": {
+      "type": "string"
+    },
+    "ime": {
+      "type": "string"
+    },
+    "respuesta": {
+      "type": "text"
+    },
+    "imagen": {
+      "type": "string"
+    },
+    "ra": {
+      "type": "string"
+    },
+    "rb": {
+      "type": "string"
+    },
+    "rc": {
+      "type": "string"
+    },
+    "rd": {
+      "type": "string"
+    },
+    "re": {
+      "type": "string"
+    }
+  }
+}
